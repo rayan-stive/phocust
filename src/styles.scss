@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+$material-design-icons-font-directory-path: '~material-design-icons-iconfont/dist/fonts/';
+@import '~material-design-icons-iconfont/src/material-design-icons';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.container {
+  margin-right: 2rem !important;
+  margin-left: 2rem !important;
+}
+.pl-2-5 {
+  padding-left: 2.5rem;
+}
+.mt-6 {
+  margin-top: 4rem;
+}
+.my-chart {
+  height: 300px;
+  width: 100%;
+
+}
+.bg-theme {
+  background-color: #CFCFCF;
+  position: absolute;
+  z-index: -1;
+  inset: 0px;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  overflow: hidden;
+  background-size: cover;
+}
